@@ -1,13 +1,63 @@
-:root{
-  --bg:#f6f9fc;
-  --accent:#0b74de;
-  --text:#0b2135;
+h1 {
+    color: white;
+    text-shadow:
+        2px 2px 4px black;
 }
 
-*{box-sizing:border-box}
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.5;margin:0;background:var(--bg);color:var(--text)}
-header{background:#fff;padding:1rem 2rem;box-shadow:0 1px 0 rgba(11,33,53,.04);display:flex;align-items:center;justify-content:space-between}
-nav a{color:var(--accent);margin-left:1rem;text-decoration:none}
-main{padding:2rem}
-section#hero{background:#fff;padding:2rem;border-radius:8px;box-shadow:0 6px 18px rgba(11,33,53,.04)}
-footer{padding:1rem 2rem;color:#6b7a86}
+p {
+    color:white;
+    font-size: 20px;
+    text-shadow:
+        2px 2px 4px goldenrod
+}
+
+h2 {
+    color: white;
+    text-shadow:
+        2px 2px 4px goldenrod
+}
+
+body {
+    background-color: #66023c;
+}
+
+.mijn-foto {
+    border-radius: 30px;
+    border : 5px solid gold;
+    width : 300px;
+    height: auto;
+}
+
+img{
+    width:500px;
+    height: auto;
+}
+
+div {
+    border: black 2px solid;
+    color : white;
+    font-size : 18px;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    background-color: darkslateblue;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1em; 
+}
+
+form label,
+form input,
+form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+li {
+  margin-right: 20px;
+}
